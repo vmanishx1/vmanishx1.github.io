@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manish | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .about p {
+            line-height: 1.7;
+        }
+
+        .skills ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .skills li {
+            background: rgba(255,255,255,0.2);
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .projects .card {
+            background: rgba(255,255,255,0.18);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .projects h3 {
+            margin-bottom: 8px;
+        }
+
+        .contact p {
+            margin: 8px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Manish</h1>
+    <p>Student | Developer | Tech Enthusiast</p>
+</header>
+
+<div class="container">
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm Manish 👋. I am a passionate student interested in programming,
+            web development, data science, and emerging technologies. I enjoy
+            learning new concepts and building practical projects.
+        </p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>Data Structures</li>
+            <li>SQL</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+
+        <div class="card">
+            <h3>Luck Busters</h3>
+            <p>Balloon-based surprise game project organized as a college initiative.</p>
+        </div>
+
+        <div class="card">
+            <h3>Student Portfolio Website</h3>
+            <p>A responsive personal portfolio built using HTML and CSS.</p>
+        </div>
+
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: manishmani2005@gmail.com</p>
+        <p>LinkedIn: linkedin.com/in/manish</p>
+        <p>GitHub: github.com/vmanishx1</p>
+    </section>
+
+</div>
+
+<footer>
+    © 2026 Manish | Designed with ❤️
+</footer>
+
+</body>
+</html>
